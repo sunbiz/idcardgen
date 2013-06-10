@@ -1,0 +1,37 @@
+{
+    "version": "1.0.1",
+    "name": "ID Card Generator",
+    "description": "Generates Bar-coded ID card",
+    "launch_path": "/index.html",
+    "icons": {
+        "48": "/img/icons/id_card.png"
+    },
+    "developer": {
+        "name": "Saptarshi Purkayastha",
+        "url": "http://sunnytalkstech.blogspot.com"
+    },
+    "installs_allowed_from": ["*"],
+    "locales": {
+        "es": {
+            "description": "Genera tarjeta de identificación con código de barras",
+            "developer": {
+                "url": "http://dhis2.org/appmarket/idcardgen"
+            }
+        },
+        "it": {
+            "description": "Genera tessera con codice a barre",
+            "developer": {
+                "url": "http://dhis2.org/appmarket/idcardgen"
+            }
+        }
+    },
+    "default_locale": "en",
+    "permissions": {
+        "systemXHR": {}
+    },
+    "activities": {
+      "dhis": {
+        "href": "*"
+      }
+    }
+}

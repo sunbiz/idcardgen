@@ -1,0 +1,23 @@
+/* 
+    Document   : main
+    Created on : May 29, 2013, 12:55:56 AM
+    Author     : Saptarshi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+#html, body {
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width:980px;
+  height: 100%;
+  margin: auto;
+} 
+
+
